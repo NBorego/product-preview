@@ -1,0 +1,58 @@
+@media screen and (max-height: 580px) {
+    main {
+        display: flex; 
+        align-items: center;
+        width: 600px;
+        height: 250px;
+    }
+
+    section#imagem {
+        background-size: cover;
+        height: 300px;
+    }
+
+    section#conteudo {
+        width: 50%;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    section#conteudo > h1{
+        font-size: 1.6em;
+    }
+
+    section#conteudo > p#perfume {
+        font-size: 0.3em;
+    }
+
+    section#conteudo > p {
+        font-size: 0.7em;
+        padding-top: 10px;
+    }
+
+    span#promocao {
+        font-size: 1.5em;
+        padding: 10px 5px 10px 0px;
+    }
+
+    span#preco {
+        font-size: 0.4em;
+        top: -6px;
+    }
+
+    input[type = submit] {
+        font-size: 0.5em;
+        height: 20px;
+    }
+
+
+    span#icone {
+        font-size: 0.8em;
+        bottom: -35px;
+        right: 27px;
+    }
+
+    div.attribution {
+        margin-top: 0px;
+    }
+}
