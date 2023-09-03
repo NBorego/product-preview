@@ -1,0 +1,47 @@
+@media screen and (min-width: 800px) {
+    main {
+        display: flex; 
+        align-items: center;
+        width: 750px;
+        height: 550px;
+    }
+
+    section#imagem {
+        background: url("../images/image-product-desktop.jpg") no-repeat top center;
+        background-size: cover;
+        height: 550px;
+        width: 50%;
+    }
+
+    section#conteudo {
+        width: 50%;
+        box-sizing: border-box;
+        padding: 50px;
+    }
+
+    section#conteudo > h1{
+        font-size: 2.83em;
+    }
+
+    section#conteudo > p#perfume {
+        font-size: 0.9em;
+    }
+
+    section#conteudo > p#descricao {
+        font-size: 1em;
+    }
+
+    span#promocao {
+        font-size: 2.5em;
+    }
+
+    input[type = submit] {
+        height: 50px;
+    }
+
+
+    span#icone {
+        bottom: -66px;
+        right: 140px;
+    }
+}
